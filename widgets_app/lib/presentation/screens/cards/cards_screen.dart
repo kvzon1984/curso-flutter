@@ -33,7 +33,7 @@ class _CardsView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final colors = Theme.of(context).colorScheme;
+
     return SingleChildScrollView(
       child: Column(
         children: [
