@@ -27,7 +27,7 @@ final appRouter = GoRouter(
     ),
     GoRoute(
       name: AppTutorialScreen.name,
-      path: '/app-tutorial',
+      path: '/tutorial',
       builder: (context, state) => const AppTutorialScreen(),
     ),
     GoRoute(
