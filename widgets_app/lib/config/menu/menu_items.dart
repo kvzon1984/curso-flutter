@@ -58,4 +58,10 @@ const appMenuItems = <MenuItem>[
     link: '/tutorial',
     icon: Icons.wb_incandescent_sharp
   ),
+  MenuItem(
+    title: 'Inifinite Scroll',
+    subTitle: 'Listas infinitas y pull to refrsh',
+    link: '/infinite',
+    icon: Icons.list_alt_rounded
+  ),
 ];

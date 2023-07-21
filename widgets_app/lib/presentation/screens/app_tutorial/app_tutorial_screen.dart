@@ -42,7 +42,7 @@ class _AppTutorialScreenState extends State<AppTutorialScreen> {
           isFinishPage = true;
         });
       }
-      print('${pageViewController.page}');
+      // print('${pageViewController.page}');
     });
   }
 
