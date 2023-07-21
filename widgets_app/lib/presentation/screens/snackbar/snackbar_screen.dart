@@ -7,7 +7,7 @@ class SnackbarScreen extends StatelessWidget {
 
   const SnackbarScreen({super.key});
 
-  void showCustomSnackbar ( BuildContext context) {
+  void showCustomSnackbar( BuildContext context) {
 
     ScaffoldMessenger.of(context).clearSnackBars();
 
@@ -31,7 +31,7 @@ class SnackbarScreen extends StatelessWidget {
         content: const Text('Culpa dolor id aute exercitation excepteur anim eiusmod ullamco. Do nostrud ad deserunt ullamco minim dolor ex minim do sint quis excepteur ullamco. Officia magna commodo do enim proident officia ex qui laboris nisi ipsum. Irure irure deserunt sunt sunt esse laboris do officia exercitation enim veniam eiusmod ea. Magna sit eu commodo duis incididunt cupidatat nulla veniam excepteur esse qui eu magna consectetur. Velit id amet dolore minim esse aliquip sit cillum proident. Culpa consequat veniam exercitation minim fugiat velit cupidatat minim laborum nisi.'),
         actions: [
           TextButton(onPressed: () => context.pop(), child: const Text('Cancelar')),
-          FilledButton(onPressed: () {}, child: const Text('Aceptar')),
+          FilledButton(onPressed: () => context.pop(), child: const Text('Aceptar')),
         ],
       ),
     );
