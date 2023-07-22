@@ -50,5 +50,15 @@ final appRouter = GoRouter(
       path: '/ui-controls',
       builder: (context, state) => const UiControlsScreen(),
     ),
+    GoRoute(
+      name: CounterScreen.name,
+      path: '/counter-river',
+      builder: (context, state) => const CounterScreen(),
+    ),
+    GoRoute(
+      name: ThemeChangerScreen.name,
+      path: '/theme_changer',
+      builder: (context, state) => const ThemeChangerScreen(),
+    ),
   ],
 );
